@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>betley.io</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Betley.io</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-light">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div id="intro" class="jumbotron text-center">
+                <h3 class="display-4">Software Developer</h3>
+            </div>
+            <div id="intContent" class="container">
+                <!-- about section -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title text-center">About Me</h2>
+                                <div>
+                                    <p class="card-text">Motivated self-starter, career Soldier-turned software developer.</p>
+                                    <p>After serving a total of 8 years in the military, with the last 3 years on active duty as an infantry officer, I decided to leave active duty to pursue a career in tech.</p>
+                                </div>
+                                <h3>Education</h3>
+                                <div>
+                                    <p>BS in Computer Science from Oregon State University | Graduated December 2020 GPA: 4.0</p>
+                                    <p>BS in Physics from UW La-Crosse | Graduated May 2016</p>
+                                </div>
+                                <h3>Skills</h3>
+                                <div>
+                                    <p>Languages: C#, C++, PowerShell, Javascript, HTML/CSS</p>
+                                    <p>Technologies: .NET/.NET Core, ASP.NET, SQL Server, IIS Hosting, Windows Server Administration, Active Directory</p>
+                                </div>
+                                <h3>Experience</h3>
+                                <div>
+                                    <p>Software Developer I: May 2020 - Present</p>
+                                    <p>Infantry Officer at US Army: May 2016 - July 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="img/person.jpg" class="card-img-top">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- project section -->
+                <div id="projects" class="jumbotron text-center">
+                    <h2 class="display-5">Projects</h2>
+                </div>
+                <!-- alien invaders  -->
+                <div class="row item">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h2>Alien Invaders</h2>
+                                <p class="card-text">A 2D game inspired by Space Invaders. Used object oriented programming principles to implement game logic. Rendered using OpenGL and custom shaders instead of an existing graphics library. Used git and GitHub for version control.</p>
+                                <h5>Tools Used</h5>
+                                <ul>
+                                    <li>C++</li>
+                                    <li>OpenGL</li>
+                                    <li>Git and GitHub</li>
+                                    <li>Visual Studio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card links shadow-sm">
+                            <div class="card-body">
+                                <a href="https://github.com/tbetley/Alien-Invaders" target="_blank"><img class="card-img" src="img/alienInvadersExample.gif"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- dark labyrinth  -->
+                <div class="row item">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h2>Dark Labyrinth</h2>
+                                <p class="card-text">CLI text-based maze game created in C++. Uses a 2D linked graph to create linked spaces in which the player can interact with. Takes advantage of inheritance and polymorphism to facilitate the interaction between spaces and track player collected items.</p>
+                                <h5>Tools Used</h5>
+                                <ul>
+                                    <li>C++</li>
+                                    <li>Make</li>
+                                    <li>Git and GitHub</li>
+                                    <li>Visual Studio Code</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card links shadow-sm">
+                            <div class="card-body">
+                                <a href="https://github.com/tbetley/Dark-Labyrinth" target="_blank"><img class="card-img" src="img/darkLabyrinthExample.gif"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MASM program  -->
+                <div class="row item">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h2>Combinatorics in Assembly</h2>
+                                <p class="card-text">Math game created in x86 assembly. Uses procedures, the system stack, and base-indexed addressing to create a modular program structure. Quickly determines the factorials of randomly generated numbers using recursion. Manually validates and converts user string input into 32-bit integers.</p>
+                                <h5>Tools Used</h5>
+                                <ul>
+                                    <li>MASM</li>
+                                    <li>Visual Studio</li>
+                                    <li>Visual Studio MASM Debugger</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card links shadow-sm">
+                                <a href="https://github.com/tbetley/Combinatorics-in-Assembly/blob/master/program6b.asm" target="_blank"><img class="card-img" src="img/masm.PNG"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio site  -->
+                <div class="row item">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h2>Personal Portfolio Site</h2>
+                                <p class="card-text">Personal portfolio site was created to showcase recent projects I have created. The site uses the typical web languages along with Bootstrap 4 to create a decent looking static site. Currently the site is hosted and deployed using GitHub Pages.</p>
+                                <h5>Tools Used</h5>
+                                <ul>
+                                    <li>HTML/CSS/JavaScript</li>
+                                    <li>Bootstrap 4</li>
+                                    <li>Git and GitHub</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 gitHubImg">
+                            <div class="card links shadow-sm h-100">
+                                <a class="mx-auto mt-auto mb-auto" href="https://github.com/tbetley/tbetley.github.io" target="_blank"><img class="" src="img/GitHub-Mark-120px-plus.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="contact" class="jumbotron text-center">
+                    <h2 class="display-5">Contact</h2>
+                </div>
+                <div class="row item">
+                    <div class="col-12">
+                        <div class="card links">
+                            <div class="card-body text-center">
+                                <a class="text-dark" href="https://www.linkedin.com/in/tylerbetley001" target="_blank"><h3><img class="linkedInImg" src="img/LI-In-Bug.png" alt=""> LinkedIn</h3></a>
+                                <a class="text-dark" href="https://github.com/tbetley" target="_blank"><h3><img src="img/GitHub-Mark-32px.png" alt=""> GitHub</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - BetleyIO
+        </div>
+    </footer>
+
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script> 
+</body>
+</html>

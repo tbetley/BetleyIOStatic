@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#intro {
+    background-color: #ec3737e1;
+    margin-top: 60px;
+}
+
+#projects {
+    background-color: #ec3737e1;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.gitHubImg {
+    min-height: 200px;
+}
+
+.linkedInImg {
+    height: 32px;
+    width: 32px;
+}
